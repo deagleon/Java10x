@@ -1,6 +1,4 @@
-package Intermediario;
-
-public class NinjaBasico implements Ninja{
+public class NinjaBasico implements Ninja {
     String nome;
     int idade;
     TipoHabilidade habilidade;

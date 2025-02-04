@@ -1,5 +1,3 @@
-package Intermediario;
-
 public class NinjaAvancado extends NinjaBasico implements Ninja{
     String especialidade;
 
