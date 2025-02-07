@@ -1,4 +1,2 @@
-package PACKAGE_NAME;
-
-public record Ninja() {
+public record Ninja(String nome, int idade, String vila) {
 }
