@@ -115,6 +115,4 @@ public class Main {
         System.out.println("Total de ninjas: " + lista.size());
         System.out.println("--------------------------");
     }
-
-
 }
