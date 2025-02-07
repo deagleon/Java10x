@@ -3,13 +3,13 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         LinkedList<Ninja> listaNinjas = new LinkedList<>();
-        listaNinjas.add(new Ninja("Naruto", 16, "Aldeia da Folha"));
-        listaNinjas.add(new Ninja("Sasuke", 18, "Aldeia da Agua"));
-        listaNinjas.add(new Ninja("Sakura", 13, "Aldeia da Terra"));
-        listaNinjas.add(new Ninja("Kakashi", 34, "Aldeia da Folha"));
-        listaNinjas.add(new Ninja("Minato", 76, "Aldeia da Chuva"));
-        listaNinjas.add(new Ninja("Rock Lee", 11, "Aldeia do Caralho"));
-        listaNinjas.add(new Ninja("Gaara", 16, "Aldeia da Areia"));
+        listDeNinjas.add(new Ninja("Naruto Uzumaki", 17, "Konoha"));
+        listDeNinjas.add(new Ninja("Sasuke Uchiha", 17, "Konoha"));
+        listDeNinjas.add(new Ninja("Sakura Haruno", 17, "Konoha"));
+        listDeNinjas.add(new Ninja("Kakashi Hatake", 31, "Konoha"));
+        listDeNinjas.add(new Ninja("Gaara", 17, "Areia"));
+        listDeNinjas.add(new Ninja("Shikamaru Nara", 17, "Konoha"));
+        listDeNinjas.add(new Ninja("Temari", 18, "Areia"));
 
         Scanner scan = new Scanner(System.in);
         boolean stop = false;
