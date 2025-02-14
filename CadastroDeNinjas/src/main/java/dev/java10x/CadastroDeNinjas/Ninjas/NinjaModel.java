@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
-@Table(name = "tb_Ninja")
+@Table(name = "tb_ninja")
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
@@ -21,6 +21,6 @@ public class NinjaModel {
 
     private int idade;
     @ManyToOne()
-    @JoinColumn(name = "missoes")
+    @JoinColumn(name = "missoes_id") //Foreign Key ou Chave estrangeira
     private MissoesModel missao;
 }

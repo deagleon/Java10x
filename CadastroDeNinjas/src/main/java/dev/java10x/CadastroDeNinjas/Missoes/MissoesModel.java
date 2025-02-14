@@ -23,7 +23,7 @@ public class MissoesModel {
 
     private String dificuldade;
 
-    @OneToMany(mappedBy = "missoes_id")
+    @OneToMany(mappedBy = "missao") //Nome da variavel que vai mapear
     private List<NinjaModel> ninjas;
 
 }
